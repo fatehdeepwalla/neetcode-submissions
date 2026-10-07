@@ -16,5 +16,5 @@
 - In second Solution, i sorted each element of the string array and used it as a key in `HashMap<String, ArrayList<String>>`.
 
 ## Solution 3 -  $O(n * m)$
-- I constructed character frequency map of each string and used it as a key in `HashMap<HashMap<Character, Integer>, ArrayList<String>>.
+- I constructed character frequency map of each string and used it as a key in `HashMap<HashMap<Character, Integer>, ArrayList<String>>`.
 - **One very Important learning from this problem is that these data structures like list, set and map can be used in complex ways.**  
