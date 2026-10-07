@@ -1,6 +1,6 @@
 # General Notes on Solving the Problem
 ## Problem Specification
-- Given an integer array ```nums```, return ```true``` if any value appears more than once in the array, otherwise return ```false```.
+- Given an integer array `nums`, return `true` if any value appears more than once in the array, otherwise return `false`.
 ## Solution 1 -  $O(n^2)$
 - First i implemented a brute force solution.
 - It simply runs two loops i.e. for each element it checks for duplicate till end of the array.
