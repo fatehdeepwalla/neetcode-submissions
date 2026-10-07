@@ -2,7 +2,7 @@
 ## Problem Specification
 - Given two strings ```s``` and ```t```, return ```true``` if the two strings are anagrams of each other, otherwise return ```false```.
 - Two strings are anagrams if they contain the same characters, with each character appearing the same number of times, regardless of order.
-## Solution 1 - $O(n \times \log n)$
+## Solution 1 - $O(n * \log n)$
 - First i implemented a brute force solution.
 - It simply sorts the two array and then check for equality.
 ## Solution 2 - $O(n)$
