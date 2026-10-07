@@ -11,5 +11,5 @@
   - With a normal for loop using indexes, removing or adding elements can shift the positions of other elements and change the collection's size. This can cause elements to be skipped, processed multiple times, or indexes to become invalid, making the logic tricky and error-prone.. So better avoid it.
   - For removing elements, an Iterator can be used safely through its ```hasNext()```, ```next()```, and ```remove()``` methods.
   - Itertor does not provide a way to add elemnts while iteration over a collection, however ListIterator has such methods.
-## Solution 2 -  $O(n*m*\log m)$
+## Solution 2 -  $ O(n*m* log m)$
 - In second Solution, i sorted each element of the string array and stored it in HashMap<String, ArrayList<String>> with key as sorted strings.
