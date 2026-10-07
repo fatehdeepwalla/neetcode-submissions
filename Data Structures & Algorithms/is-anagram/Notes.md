@@ -8,4 +8,4 @@
 ## Solution 2 - $O(n)$
 - In second Solution, i used a hashMap to mainting the information about character frequency of a string.
 - For two annagrams the chracter frquency map should be identicals
-- **Also since character are only 26 in number, we could have avoided the HashMap and directly used an array of length 26.**
+- **Also since characters are only 26 in number, we could have avoided the HashMap and directly used an array of length 26.**
