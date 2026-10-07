@@ -7,4 +7,4 @@
 ## Solution 2
 - In second Solution, i used a hashSet.
 - As they are O(1), when it comes to searching.
-- They represent the concept of generalized array.
+- **They represent the concept of generalized array.**
