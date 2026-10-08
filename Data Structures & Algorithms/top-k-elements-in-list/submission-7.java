@@ -1,6 +1,7 @@
 // A solution with Record
 // prefer key set instead of entrySet, unless you want a collection of entrySet
 // use of reversed
+// instead of sorting i just took out maximum k times
 class Solution {
 
     public int[] topKFrequent(int[] nums, int k) {
@@ -21,8 +22,6 @@ class Solution {
         }
         return result;
     }
-
-    public record pair(int number, int frequency){}
 
     public int max(HashMap<Integer, Integer> map){
         int key=0;
