@@ -1,7 +1,4 @@
-// A solution with Record
-// prefer key set instead of entrySet, unless you want a collection of entrySet
-// use of reversed
-// instead of sorting i just took out maximum k times
+// Instead of sorting i extracted out max element k times.
 class Solution {
 
     public int[] topKFrequent(int[] nums, int k) {
