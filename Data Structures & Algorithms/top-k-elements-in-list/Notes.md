@@ -10,4 +10,12 @@
 - Then returning first k elements.
 - Many iterations of submission: entrySet, record, keySet, Comparable instead of comparator, naturalOrder-reverseOrder, reversed.
 ## Solution 7 | Time complexity $O (n* k)$ | Space complexity $O(n)$
-- I though sortiing is overkill, so instead just i extracted the max element out and did that for k times.
+- I though sorting is overkill, so instead just i extracted the max element out and did that for k times.
+## Solution 8 | Time complexity $O ( n* \log n)$ | Space complexity $O(n)$
+- I used heap, but manually added elements one by one, so heap was not contructed in linear time.
+## Solution 9 | Time complexity $O(n+m*\log m + k*\log m)$ | Space complexity $O(n)$
+- I used allAll() method, but this is of no use as behind the scenes it also adds elements one by one.
+- Actually constructor only can make heap with linear in time i.e. using bottom-up heapify process.
+- But i did not find any constructor which uses both collection and comparision.
+## Solution 10 | Time complexity $O(n+m*\log m + k*\log m)$ | Space complexity $O(n)$
+- I used record class and implemented comparable interface to overcome the shortcoming of constructor arguments.
