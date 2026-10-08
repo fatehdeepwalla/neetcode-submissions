@@ -1,6 +1,6 @@
-// A solution with Record
-// prefer key set instead of entrySet, unless you want a collection of entrySet
-// use of reversed
+// Used heap instead 
+// directly added elements to heap which would not be linear in time.
+// this time i used constructor to add elements.
 class Solution {
 
     public int[] topKFrequent(int[] nums, int k) {
