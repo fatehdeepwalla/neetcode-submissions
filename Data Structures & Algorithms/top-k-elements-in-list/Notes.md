@@ -15,11 +15,11 @@
 - I used heap, but manually added elements one by one, so heap was not contructed in linear time.
 ## Solution 9 | Time complexity  $O ( n* \log n)$ | Space complexity $O(n)$
 - I used allAll() method, but this is of no use as behind the scenes it also adds elements one by one.
-- Actually constructor only can make heap with linear in time i.e. using bottom-up heapify process.
+- Actually constructor only can make heap in linear time i.e. using bottom-up heapify process.
 - But i did not find any constructor which uses both collection and comparision.
 ## Solution 10 | Time complexity $O(n + k* \log n)$ | Space complexity $O(n)$
-- I used record class and implemented comparable interface to overcome the shortcoming of constructor arguments.
+- I used record and implemented comparable interface to overcome the shortcoming of constructor arguments.
 ## Solution 11 : 12 | Time complexity $O(n)$ | Space complexity $O(n)$
 - I built another map, for frequency as key and number appearing with that frequency as a list.
 - This came by a realization that any number's frequency cannot be more than the size of the array.
-- In one solution i directly used array of size of input+1 and in another case i used HashMap
+- In one solution i directly used array of size of input+1 and in another case i used HashMap.
