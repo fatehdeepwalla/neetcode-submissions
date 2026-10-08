@@ -1,3 +1,4 @@
+// From HashMap i created a list of MapEntry and then sorted it.
 class Solution {
 
     public int[] topKFrequent(int[] nums, int k) {
