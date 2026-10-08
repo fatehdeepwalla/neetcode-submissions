@@ -1,5 +1,6 @@
-// A solution with Record
-// prefer key set instead of entrySet, unless you want a collection of entrySet
+// A solution with Record.
+// prefer key set instead of entrySet, unless you want a collection of entrySet.
+// Instead of using Comparator i made pairs class comparable.
 class Solution {
 
     public int[] topKFrequent(int[] nums, int k) {
