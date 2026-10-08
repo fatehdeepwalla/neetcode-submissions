@@ -10,7 +10,7 @@
 - Then returning first k elements.
 - Many iterations of submission: entrySet, record, keySet, Comparable instead of comparator, naturalOrder-reverseOrder, reversed.
 ## Solution 7 | Time complexity $O (n* k)$ | Space complexity $O(n)$
-- I though sorting is overkill, so instead just i extracted the max element out and did that for k times.
+- I thought sorting is overkill, so instead just i extracted the max element out and did that for k times.
 ## Solution 8 | Time complexity $O ( n* \log n)$ | Space complexity $O(n)$
 - I used heap, but manually added elements one by one, so heap was not contructed in linear time.
 ## Solution 9 | Time complexity  $O ( n* \log n)$ | Space complexity $O(n)$
