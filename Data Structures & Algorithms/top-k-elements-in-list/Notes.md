@@ -19,3 +19,7 @@
 - But i did not find any constructor which uses both collection and comparision.
 ## Solution 10 | Time complexity $O(n + k* \log n)$ | Space complexity $O(n)$
 - I used record class and implemented comparable interface to overcome the shortcoming of constructor arguments.
+## Solution 11 : 12 | Time complexity $O(n)$ | Space complexity $O(n)$
+- I built another map, for frequency as key and number appearing with that frequency as a list.
+- This came by a realization that any number's frequency cannot be more than the size of the array.
+- In one solution i directly used array of size of input+1 and in another case i used HashMap
