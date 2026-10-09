@@ -12,7 +12,7 @@ class Solution {
             //map.put(x, map.getOrDefault(x, 0)+1);
         }
 
-        ArrayList<Integer>[] frequency= (ArrayList<Integer>[]) new ArrayList[nums.length+1];
+        ArrayList<Integer>[] frequency= (ArrayList<Integer>[]) new ArrayList<?>[nums.length+1];
         for(Integer key: map.keySet()){
             Integer v=map.get(key);
             if(frequency[v]==null) frequency[v]=new ArrayList<>();
